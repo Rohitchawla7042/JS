@@ -62,3 +62,48 @@ do {
 // so do-while loop , will always run for one time , as it will definatey give one ans and will not check the condition as in do-while first the block will run and check for condition 
 
 console.log("Hello!!")
+
+/*
+let obj = {
+  harry : 98,
+  rohanm : 70, 
+  aakash:7
+}
+
+for (let i = 0; i<Object.keys(obj).length ; i++ ){
+  console.log("The marks of " + Object.keys(obj)[i] + " are " + obj[Object.keys(obj)[i]]) ;
+}
+
+
+let marks = {
+  rohit: 90,
+  naman: 98,
+  kkk :76
+}
+  for (i = 0; i<Object.keys(marks).length; i++){
+  console.log("the marks of " + Object.keys(marks)[i] + " are " + marks[Object.keys(marks)[i]])
+  }
+
+for (let b in marks){
+  console.log("The marks of " + b + " are " + marks[b])
+  
+}
+
+let correctnum = 98; 
+let number = prompt("Please enter a number")
+
+if (number == correctnum){
+  console.log("You had find out the perfect nu that is " + correctnum)
+}
+
+else{
+  console.log("Try Again!!")
+}
+*/
+let cn = 89 ; 
+let i ; 
+while(i!=cn){
+  i = prompt("Enter a number")
+  console.log("Try Again!!")
+}
+console.log("You have gussed the right number that is " + cn)
